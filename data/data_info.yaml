@@ -1,0 +1,46 @@
+points_folder: ./data/points
+labels_folder: ./data/labels
+label_names:
+- Car
+- TrafficLight
+- Bicycle
+- Motorcycle
+- Truck
+- TrafficSigns
+- Bus
+sensor: LiDARMerge
+sensor_fov:
+- 130.0
+- 130.0
+- 130.0
+- 130.0
+sensor_channels:
+- 128
+- 128
+- 128
+- 128
+sensor_range:
+- 25.0
+- 25.0
+- 25.0
+- 25.0
+sensor_points_per_second:
+- 500000
+- 500000
+- 500000
+- 500000
+sensor_rotation_frequency:
+- 20.0
+- 20.0
+- 20.0
+- 20.0
+sensor_lower_fov:
+- -30.0
+- -30.0
+- -30.0
+- -30.0
+sensor_upper_fov:
+- 10.0
+- 10.0
+- 10.0
+- 10.0
